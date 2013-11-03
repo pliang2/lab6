@@ -37,6 +37,10 @@ $(function(){
 
 	$('.cancel-signup').click(function(){
     //code to run when user clicks "No Thanks!" button
-    	window.location = 'http://www.google.com';
+        $('.cancel-signup-modal').modal();
 	});
+
+    $('.btn-abandon').click(function(){
+        window.location = 'http://www.google.com';
+    });
 });
